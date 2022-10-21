@@ -1,0 +1,29 @@
+/* universal selector */
+*{
+    color: aqua;
+}
+/*type slector*/
+p{
+    color: aquamarine;
+}
+/* <a> is a child of li*/
+li> a{
+    text-shadow: 2px 2px black;
+}
+/*this only defines the class of orange for  a h1*/
+h1.orange{
+    color: orange;
+}
+.sml {
+    width: 200px;
+    height: 200px;
+}
+.mdl {
+    width: 300px;
+    height: 300px;
+}
+body{
+    background-image: url("image-53fnueiw.png");
+    background-repeat: repeat
+    
+}
